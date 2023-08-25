@@ -1,0 +1,89 @@
+.sec-ttl {
+    padding: 80px;
+    text-align: center;
+    color: #2c8d7e;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Anton-Regular.ttf';
+}
+
+/* MainVisual Section */
+.sec-mv {
+    width: 100%;
+    position: relative;
+    background-image: url("../img/home/download.png");
+    padding: 180px 0;
+    text-align: center;
+}
+
+/* Welcome Section */
+.sec-welcome {
+    text-align: center;
+    color: #173979;
+    padding: 80px 0;
+}
+
+.sec-welcome .wc-subttl {
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.sec-welcome .wc-ttl {
+    text-transform: uppercase;
+    font-size: 89px;
+    padding: 25px 0 18px 0;
+    letter-spacing: 2px;
+}
+
+.sec-welcome .wc-info {
+    padding-bottom: 40px;
+    font-family: 'Serif';
+
+}
+
+/* Section Event */
+.sec-event {
+    text-align: center;
+    padding: 100px 50px;
+    background-color: #173979;
+}
+
+.sec-event ul {
+    width: 100%;
+    display: flex;
+}
+
+.sec-event .sec-ttl {
+    padding: 50px;
+    color: #fff;
+}
+
+.sec-event .event-card {
+    width: 400px;
+    margin-right: 20px;
+    height: 350px;
+    position: relative;
+}
+
+.sec-event .event-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    /* position: relative; */
+    border-radius: 20px;
+
+}
+
+.sec-event .event-card p {
+    width: 50%;
+    border-radius: 0 20px 0px 20px;
+    bottom: 14%;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto';
+    color: #173979;
+}

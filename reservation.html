@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/reservation.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <div class="logo">
+        <a href="index.html">
+          <h1 class="animate__animated animate__rubberBand">BLACKHOUSE</h1>
+        </a>
+      </div>
+
+      <nav class="gnav">
+        <ul>
+          <li class="home-nav">
+            <a href="index.html">HOME</a>
+          </li>
+          <li class="menu-nav">
+            <a href="menu.html">MENU</a>
+          </li>
+          <li class="reservation-nav active">
+            <a href="reservation.html">RESERVATION</a>
+          </li>
+          <li class="contact-nav"><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+    <section class="sec-mv">
+      <h2 class="animate__animated animate__fadeInDown">Reservation</h2>
+    </section>
+
+    <section class="sec-time">
+      <div class="time-info">
+        <p class="ttl-time">Time</p>
+        <h3>Opening Hours</h3>
+        <p>Everyday :11.00 AM - 23.00 PM</p>
+        <ul>
+          <li>
+            <i class="fa-solid fa-envelope fa-bounce"></i>
+            blackhouse@gmail.com
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope fa-bounce"></i>
+            reastaurant.blackhouse@gmail.com
+          </li>
+          <li>
+            <i class="fa-solid fa-phone fa-bounce"></i>
+            (+95) 9969684523 / (+95) 9969684513
+          </li>
+        </ul>
+      </div>
+      <div class="img">
+        <img
+          src="./img/reservation/img_bh_location_.jpg"
+          alt="Black House Front"
+          width="500px"
+        />
+      </div>
+    </section>
+
+    <section class="sec-book" id="sec-book">
+      <p class="sec-subttl">Reservation</p>
+      <h4 class="sec-ttl">Booking a table online is easy</h4>
+      <div class="book-table">
+        <form action="">
+          <div class="table-upper">
+            <div class="box">
+              <label for="name">Name</label> <br />
+              <input type="text" id="name" placeholder="Your name" />
+            </div>
+            <div class="box">
+              <label for="phone">Phone Number</label> <br />
+              <input type="tel" id="phone" placeholder="Telephone" />
+            </div>
+            <div class="box">
+              <label for="number">Person</label> <br />
+              <input type="number" min="1" id="number" placeholder="Number" />
+            </div>
+          </div>
+          <div class="table-lower">
+            <div class="box">
+              <label for="date">Date</label> <br />
+              <input type="date" id="date" />
+            </div>
+            <div class="box">
+              <label for="time">Time</label> <br />
+              <input type="time" min="11:00" max="23:00" id="time" />
+            </div>
+            <div class="box">
+              <label for="time"></label> <br />
+              <button class="book-btn">Book A Table</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+    <section class="sec-place">
+      <div class="left-col">
+        <p class="sec-subttl">Private Dining & Events</p>
+        <h4 class="sec-ttl">Get The Right Place</h4>
+        <p>
+          At BlackHouse, we are committed to provide excellent service to all of
+          our guests, no matter the occasion. Whether you are planning a large
+          event or an intimate dinner party, our team of professionals is here
+          to cater to your every need. Contact us now to start planning your
+          most.
+        </p>
+      </div>
+      <div class="right-col">
+        <img
+          src="./img/reservation/img_place.jpg"
+          alt="Booked Table"
+          width="500px"
+        />
+      </div>
+    </section>
+
+    <section class="sec-footer">
+      <div class="cols">
+        <div class="left-col">
+          <h5>Information</h5>
+          <ul>
+            <li>Pyay Aung Lan Main Road, Pyay Wetern</li>
+            <li>restaurant@blackhouse.com</li>
+            <li>(+95) 9969684523 / (+95) 9969684513</li>
+          </ul>
+        </div>
+        <div class="mid-col">
+          <!-- <img
+            src="./img/common/black_house_logo.png"
+            alt="BLACKHOUSE"
+            width="300px"
+          /> -->
+          <h4>BLACKHOUSE</h4>
+          <p>Embark on a culinary journey with Black House's exquisite menu.</p>
+        </div>
+        <div class="right-col">
+          <p>Page</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="home.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>Copyright © 2023 BlackHouse. All rights reserved.</div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha384-4oV5Cv8fW1Cg6C7/DW2G0DULBy2KfUhhxF+Jot4v8d4z+erFNOd6FvcR2mI4lu6d"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <div class="logo">
+        <a href="index.html">
+          <h1 class="animate__animated animate__rubberBand">BLACKHOUSE</h1>
+        </a>
+      </div>
+
+      <nav class="gnav">
+        <ul>
+          <li class="home-nav">
+            <a href="index.html">HOME</a>
+          </li>
+          <li class="menu-nav active">
+            <a href="menu.html">MENU</a>
+          </li>
+          <li class="reservation-nav">
+            <a href="reservation.html">RESERVATION</a>
+          </li>
+          <li class="contact-nav"><a href="contact.html">CONTACT US</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+    <!-- Section Second Nav -->
+    <div class="bottom-nav">
+      <ul>
+        <li><a class="active" href="menu.html#menu-popular">🔥 Popular</a></li>
+        <li><a href="breakfast.html">Breakfast</a></li>
+        <li><a href="curry.html">Curry</a></li>
+        <li><a href="seafood.html">Seafood</a></li>
+        <li><a href="dessert.html">Dessert</a></li>
+        <li class="dropdown">
+          <a href="drinks.html">Drinks</a>
+          <div class="dropdown-content">
+            <a href="drinks.html#coffee">Coffee</a>
+            <a href="drinks.html#smoothie">Smoothie</a>
+            <a href="drinks.html#juice">Juice</a>
+            <a href="drinks.html#beer">Beer</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <section class="video-background">
+      <video autoplay muted loop>
+        <source src="./img/home/intro_reel.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div class="title-overlay">
+        <h1 class="animate__animated animate__fadeInDown" id="menu-popular">
+          Our chefs get ready to serve you
+        </h1>
+      </div>
+    </section>
+    <section class="sec-food">
+      <h2 class="menu-ttl">🔥Popular Recipe</h2>
+      <ul>
+        <li class="card">
+          <div class="card-img">
+            <img src="./img/menu/popular/img_mud_crab.jpg" alt="FOOD" />
+          </div>
+          <div class="card-footer">
+            <div class="footer-info">
+              <p class="card-ttl">Mud Crab Recipe</p>
+              <p class="card-price">25000 ks</p>
+            </div>
+            <a href="" class="add-card-btn">+</a>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-img">
+            <img src="./img/menu/popular/img_seafood_platter.jpg" alt="FOOD" />
+          </div>
+          <div class="card-footer">
+            <div class="footer-info">
+              <p class="card-ttl">Seafood Platter</p>
+              <p class="card-price">30000 ks</p>
+            </div>
+            <a href="" class="add-card-btn">+</a>
+          </div>
+        </li>
+
+        <li class="card">
+          <div class="card-img">
+            <img src="./img/menu/popular/img_danbouk.jpg" alt="FOOD" />
+          </div>
+          <div class="card-footer">
+            <div class="footer-info">
+              <p class="card-ttl">Mutton Biryani</p>
+              <p class="card-price">58000 ks</p>
+            </div>
+            <a href="" class="add-card-btn">+</a>
+          </div>
+        </li>
+
+        <li class="card">
+          <div class="card-img">
+            <img src="./img/menu/popular/img_mala_xiang_guo.jpg" alt="FOOD" />
+          </div>
+          <div class="card-footer">
+            <div class="footer-info">
+              <p class="card-ttl">Mala Xiang Guo</p>
+              <p class="card-price">15000 ks</p>
+            </div>
+            <a href="" class="add-card-btn">+</a>
+          </div>
+        </li>
+
+        <li class="card">
+          <div class="card-img">
+            <img src="./img/menu/popular/img_mala_mao_cai.jpg" alt="FOOD" />
+          </div>
+          <div class="card-footer">
+            <div class="footer-info">
+              <p class="card-ttl">Mala Mao Cai</p>
+              <p class="card-price">10000 ks</p>
+            </div>
+            <a href="" class="add-card-btn">+</a>
+          </div>
+        </li>
+        <li class="card">
+          <div class="card-img">
+            <img
+              src="./img/menu/popular/img_seafood_koongTuang.jpg"
+              alt="FOOD"
+            />
+          </div>
+          <div class="card-footer">
+            <div class="footer-info">
+              <p class="card-ttl">Seafood Koong Taung</p>
+              <p class="card-price">25000 ks</p>
+            </div>
+            <a href="" class="add-card-btn">+</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="sec-footer">
+      <div class="cols">
+        <div class="left-col">
+          <h5>Information</h5>
+          <ul>
+            <li>Pyay Aung Lan Main Road, Pyay Wetern</li>
+            <li>restaurant@blackhouse.com</li>
+            <li>(+95) 9969684523 / (+95) 9969684513</li>
+          </ul>
+        </div>
+        <div class="mid-col">
+          <h4>BLACKHOUSE</h4>
+          <p>Embark on a culinary journey with Black House's exquisite menu.</p>
+        </div>
+        <div class="right-col">
+          <p>Page</p>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="reservation.html">Reservation</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div>Copyright © 2023 BlackHouse. All rights reserved.</div>
+    </section>
+  </body>
+</html>
