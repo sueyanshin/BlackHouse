@@ -279,3 +279,10 @@ body {
     color: #173979;
     border: 1px solid #173979;
 }
+
+#mobile-warning {
+    display: none;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffcccc;
+}
