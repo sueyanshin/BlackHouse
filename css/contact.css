@@ -1,0 +1,619 @@
+body,
+h1,
+h2,
+p,
+label,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #1a1c92;
+    color: white;
+    text-align: center;
+    padding: 21em;
+    background-image: url(../img/contact/img_sec_mv.png);
+}
+
+header h1 {
+    font-size: 50px;
+    /* Adjust the font size as needed */
+    position: static;
+    align-items: center;
+    transform: translateX(-50%);
+    /* Center it horizontally */
+    bottom: 0em;
+    /* Adjust the distance from the bottom */
+    left: 3em;
+    font-family: 'Pacifico', cursive;
+    /* Use the chosen font */
+
+}
+
+.header-box {
+    background-color: rgba(171, 83, 83, 0.463);
+    /* Semi-transparent white */
+    padding: 2em 7em;
+    /* Adjust padding as needed */
+    border-radius: 5px;
+    /* Rounded corners */
+    position: static;
+
+    display: inside;
+    /* Allow the box to wrap around content */
+    align-self: center;
+
+}
+
+.contactUs-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+    border: 1px solid #3d33a59a;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #504949;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #38383c;
+}
+
+.contact-info,
+.social-media {
+    flex: 1;
+    text-align: left;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    margin-bottom: 0.5em;
+}
+
+.footer-bottom {
+    margin-top: 1em;
+    background-color: blue;
+    padding: 0.5em 0;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #c3bfbf;
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    color: #dcd7d7;
+}
+
+.image-section {
+    text-align: right;
+    /* Center the image horizontally */
+    margin-top: 2em;
+    /* Adjust margin as needed */
+}
+
+.image-section img {
+    max-width: 20em;
+    /* Ensure the image doesn't exceed its container */
+    border: 1px solid #ccc;
+    /* Add a border around the image */
+    border-radius: 25% 10%;
+    ;
+    /* Add rounded corners to the border */
+    box-shadow: 10px 5px 5px orange;
+    /* Add a subtle shadow */
+    transition: transform 0.2s ease-in-out;
+    /* Add smooth transition effect */
+}
+
+.image-section img:hover {
+    transform: scale(1.05);
+}
+
+.intro-text {
+    background-color: white;
+    /* Light gray background */
+    padding: 2em;
+    /* Add some padding */
+    text-align: center;
+    /* Center the text */
+}
+
+.intro-text p {
+    margin: 0;
+    /* Remove default margin */
+    font-size: 18px;
+    /* Adjust font size */
+    line-height: 1.5;
+    /* Add some line spacing */
+    text-align: center;
+    /* Center the text */
+}
+
+.intro-text .make-reservation {
+    font-size: 36px;
+    /* Increase font size */
+    font-family: Cabin Condensed;
+    /* Change font family */
+    /* color: #1a1c92; Change text color */
+    margin-bottom: 1em;
+    /* Add some spacing below the text */
+    color: #212121;
+    line-height: 48px;
+    letter-spacing: 3px;
+}
+
+.intro-text .come-see {
+    font-size: 20px;
+    line-height: 24px;
+    color: #2e83a7;
+    text-align: center;
+    letter-spacing: 3px
+}
+
+.intro-text .black-house {
+    box-sizing: border-box;
+    word-wrap: break-word;
+    font-family: "Calibri (Body)", Calibri, Serif;
+    /* Change font family */
+    font-size: 1.2em;
+    margin: auto;
+}
+
+.form-box {
+    background-color: rgb(185, 176, 176);
+    padding: 1.5em;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2em;
+}
+
+.contact-box {
+    background: gray;
+    display: flex;
+}
+
+.contact-left {
+    flex-basis: 60%;
+    padding: 40px 60px;
+    color: white;
+
+}
+
+/* .contact-left h1 {
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%); 
+    left: 0; 
+    right: 0; 
+    margin: 0; 
+  } */
+.contact-right {
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 10px;
+
+}
+
+.input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    ;
+}
+
+.input-row .input-group {
+    flex-basis: 45%;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+label {
+    margin-bottom: 6px;
+    display: block;
+    color: #eae9f1;
+}
+
+button {
+    background: white;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: black;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0, 3);
+}
+
+.contact-left h3 {
+    color: #1c00b5;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.contact-right h3 {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td :first-child {
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 20px;
+}
+
+/* Style icons */
+table tr td i {
+    color: #e9e8ee;
+    /* Change the color as needed */
+    font-size: 18px;
+    /* Adjust the icon size */
+    margin-right: 10px;
+    /* Add margin to the right of the icon */
+}
+
+/* Style text */
+table tr td {
+    color: white;
+    font-size: px;
+    /* Adjust the font size as needed */
+}
+
+.sec-mv {
+    padding: 300px 0;
+    background-image: url("../img/contact/img_sec_mv.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    height: 100vh;
+    border-radius: 0 0 100px 100px;
+    text-align: center;
+    margin-bottom: 50px;
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+/* .sec-mv h2 {
+    font-size: 80px;
+    color: #fffffff0;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sec-time img {
+    border-radius: 70px 0 70px 0;
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+.sec-time .ttl-time {
+    font-size: 50px;
+    font-weight: bold;
+
+} */
+
+.sec-time h2 {
+    font-size: 60px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    padding-bottom: 5px;
+}
+
+.sec-mv h2 {
+    font-size: 80px;
+    /* font-family: 'Roboto Mono', monospace; Use Roboto Mono font */
+    font-weight: 700;
+    /* Use font weight 700 for bold */
+    font-style: italic;
+    /* Apply italic style */
+    color: white;
+    padding-bottom: 20px;
+    /* Adjust padding as needed */
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+/* For Contact-box */
+.sec-mv {
+    padding: 300px 0;
+    background-image: url("../img/contact/img_sec_mv.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    width: 100%;
+    height: 100vh;
+    border-radius: 0 0 100px 100px;
+    text-align: center;
+    margin-bottom: 50px;
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+
+.sec-mv h2 {
+    font-size: 80px;
+    color: #fff;
+    font-style: bold;
+}
+
+/* Section Time */
+
+.sec-time {
+    padding: 100px 100px;
+    color: #173979;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sec-time img {
+    border-radius: 70px 0 70px 0;
+    animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+.sec-time .ttl-time {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.sec-time h3 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 5px;
+}
+
+.sec-time p {
+    font-size: 30px;
+}
+
+.sec-time ul {
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.sec-time ul li {
+    padding-bottom: 5px;
+}
+
+/* Section Book Table */
+.sec-book {
+    padding: 50px 50px;
+}
+
+.sec-book .sec-subttl {
+    font-size: 30px;
+    width: 200px;
+    text-align: center;
+    border-bottom: 10px solid #173979;
+    border-top: 10px solid #173979;
+
+    border-radius: 10px;
+    border-width: 2px;
+    margin: 0 auto;
+    color: #173979;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.sec-book .sec-ttl {
+    text-align: center;
+    color: #173979;
+    font-size: 40px;
+    padding: 50px;
+}
+
+.sec-book .book-table {
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 20px;
+    color: #fff;
+    background-color: #173979;
+    border-radius: 12px;
+}
+
+.sec-book .book-table .box {
+    display: block;
+}
+
+.sec-book .book-table input {
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: #173979;
+    border: 1px solid #fff;
+    color: #fff;
+    outline-color: #fff;
+    margin: 20px 0 40px 0;
+    width: 100%;
+    margin-right: 10px;
+
+}
+
+/* for Message */
+.box textarea {
+    width: 100%;
+    padding: 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline-color: #fff;
+
+
+    background-color: transparent;
+    color: #fff;
+    /* Change text color to dark */
+    resize: vertical;
+}
+
+.sec-book .book-table label {
+    font-size: 20px;
+    text-align: start;
+    font-family: 'Roboto';
+}
+
+.sec-book .book-table .table-upper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-book .book-table .table-lower {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec-book .book-table .table-lower .book-btn {
+    height: inherit;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: #173979;
+    border: 1px solid #fff;
+    color: #fff;
+    outline-color: #fff;
+    margin: 20px 0 40px 0;
+    width: 205px;
+    box-shadow: 0px 15px 32px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.sec-book .book-table .table-lower .book-btn:hover {
+    background-color: #fff;
+    color: #173979;
+    cursor: pointer;
+}
+
+/* Section Map */
+.sec-map {
+    margin: 20px auto;
+    padding: 100px 100px;
+    background-color: #fcfbfb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 300px 0 20px 0;
+}
+
+.sec-map iframe {
+    width: 45%;
+    max-width: 800px;
+    height: 450px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Add a subtle shadow */
+    margin: 0 auto;
+    /* Center the map horizontally */
+}
+
+.review-wrapper {
+    width: 50%;
+}
+
+.review-wrapper h3 {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.reviews {
+    flex-basis: calc(50% - 20px);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.681);
+    font-size: 16px;
+    padding-right: 20px;
+    line-height: 1.5;
+
+}
+
+.reviews span {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+}

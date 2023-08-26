@@ -66,38 +66,6 @@
     display: block;
 }
 
-/* Section Video Background */
-.video-background {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.video-background video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50px;
-}
-
-.title-overlay {
-    position: absolute;
-    bottom: 10%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-}
-
-.title-overlay h1 {
-    font-size: 50px;
-}
-
 
 /* Section Food */
 .sec-food {

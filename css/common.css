@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background-color: #FFA500;
+    color: #FFFFFF;
+}
+
 @font-face {
     font-family: 'Druk-Medium';
     font-weight: 400;
