@@ -295,7 +295,7 @@ body {
     .header {
         padding: 0 20px;
     }
-    .sec-footer .copy-txt {
-    font-size:18px;
-}
+    .sec-footer .copy-txt p {
+        font-size: 18px;
+    }
 }
