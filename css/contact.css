@@ -567,3 +567,60 @@ table tr td {
     justify-content: end;
     text-align: end;
 }
+
+
+/* Section Developers */
+.sec-developers {
+    padding: 100px 0;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sec-developers h3 {
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.sec-developers h3 span {
+    color: #173979;
+}
+
+.sec-developers .devs {
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.sec-developers .devs img {
+    border-radius: 20px;
+    width: 100%;
+
+}
+
+.sec-developers .devs ul {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+
+}
+
+.sec-developers .devs ul li a {
+    background-color: #fff;
+    cursor: pointer;
+    color: #173979;
+    padding: 10px;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-shadow: 2px 3px 5px #000;
+    border-radius: 10px;
+}
+
+.sec-developers .devs ul li a:hover {
+    background-color: #173979;
+    color: #fff;
+}
