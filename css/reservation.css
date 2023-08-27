@@ -191,9 +191,23 @@
         height: 300px;
     }
 
+    .sec-time {
+        display: block;
+    }
+
+    .sec-time .time-info {
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .sec-time img {
+        width: 100%;
+    }
+
     .sec-book .book-table .table-upper {
         text-align: center;
         display: block;
+
     }
 
     .sec-book .book-table .table-lower {
@@ -203,6 +217,11 @@
 
     .sec-place {
         display: block;
+    }
+
+    .sec-place .left-col {
+        width: 100%;
+        padding-bottom: 50px;
     }
 
     .sec-place .left-col {
