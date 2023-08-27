@@ -259,9 +259,17 @@
     border: 3px solid #e0206c;
 }
 
+
 @media screen and (min-width:380px) and (max-width:1180px) {
     .sec-event ul {
         text-align: center;
         display: block;
+
+    }
+
+    .sec-event .event-card {
+        text-align: center;
+        margin: 0 auto;
     }
 }
+
