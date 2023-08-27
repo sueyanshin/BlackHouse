@@ -190,4 +190,22 @@
         padding: 150px 0;
         height: 300px;
     }
+
+    .sec-book .book-table .table-upper {
+        text-align: center;
+        display: block;
+    }
+
+    .sec-book .book-table .table-lower {
+        text-align: center;
+        display: block;
+    }
+
+    .sec-place {
+        display: block;
+    }
+
+    .sec-place .left-col {
+        width: 100%;
+    }
 }
