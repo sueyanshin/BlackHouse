@@ -674,10 +674,11 @@ table tr td {
 }
 
 
+
 .sec-developers .devs ul li a {
     background-color: #fff;
     cursor: pointer;
-    color: #173979;
+    color: #000;
     padding: 10px;
     font-weight: bold;
     text-transform: capitalize;
@@ -686,6 +687,6 @@ table tr td {
 }
 
 .sec-developers .devs ul li a:hover {
-    background-color: #173979;
-    color: #fff;
+    background-color: #FFA500;
+    color: #000;
 }
