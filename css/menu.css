@@ -188,6 +188,9 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
     }
+     .bottom-nav ul {
+        width: 100%;
+    }
 
 
 }
